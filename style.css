@@ -94,7 +94,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: neon yellow;
+  background-color: yellow;
   color: brown;
 }
 
@@ -111,7 +111,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: brown;
   padding: 5px;
 
   /* Positioning properties */
@@ -127,7 +127,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: white;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -139,7 +139,7 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: yellow; /* Add your own background color */
   padding: 4%;
   margin: 3%;
   color: #0D38D3; /* Add the color of your font */
@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: coral;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -176,7 +176,7 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: white;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
@@ -186,12 +186,12 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://www.unicef.org/yemen/sites/unicef.org.yemen/files/styles/hero_desktop/public/_U6A0410.jpg?itok=OJfo72-o");
 }
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unicef.org%2Fyemen%2Fsocial-policy&psig=AOvVaw1BWq3w8GmKkWunJVGU-Skd&ust=1595999348052000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICinIaX7-oCFQAAAAAdAAAAABAD");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
