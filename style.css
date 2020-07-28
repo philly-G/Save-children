@@ -20,7 +20,7 @@ html {
   font-family: "Roboto", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: yellow; /* Change the font color*/
+  color: gold; /* Change the font color*/
   background-color: white; /* Change the background color */
   box-sizing: border-box;
 }
@@ -39,14 +39,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: yellow;
+  color: gold;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: white;
+  color: gold;
   text-decoration: none;
 }
 
@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:brown;
+  background-color:white;
   border-style: solid;
-  border-color: white;
+  border-color: gold;
 }
 
 /* TODO (optional): Change the font size*/
@@ -82,7 +82,7 @@ li.nav {
 li.nav a {
   /* Styling for the <a> elements in <li class="nav"> */
   display: block;
-  color: white;
+  color: red;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -94,8 +94,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: yellow;
-  color: brown;
+  background-color: white;
+  color: white;
 }
 
 /************************************************/
@@ -111,7 +111,7 @@ li.nav a:hover {
   align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
-  background-color: brown;
+  background-color: white;
   padding: 5px;
 
   /* Positioning properties */
@@ -127,7 +127,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: white;
+  color: coral;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -139,14 +139,14 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: yellow; /* Add your own background color */
+  background color: coral; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
+  color: coral ; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
-  text-align: center;
+  text-align: left;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -191,7 +191,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unicef.org%2Fyemen%2Fsocial-policy&psig=AOvVaw1BWq3w8GmKkWunJVGU-Skd&ust=1595999348052000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICinIaX7-oCFQAAAAAdAAAAABAD");
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/201701/adoption-1_647_011817035607_0.jpg");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
