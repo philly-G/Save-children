@@ -20,7 +20,7 @@ html {
   font-family: "Roboto", sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: gold; /* Change the font color*/
+  color: white; /* Change the font color*/
   background-color: white; /* Change the background color */
   box-sizing: border-box;
 }
@@ -39,14 +39,14 @@ h2 {
   letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif;
-  color: gold;
+  color: white;
   text-align: center;
   line-height: 1.3em;
 }
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: gold;
+  color: white;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: white;
+  background-color: black;
   color: white;
 }
 
@@ -142,7 +142,7 @@ li.nav a:hover {
   background color: coral; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: coral ; /* Add the color of your font */
+  color: coral; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
