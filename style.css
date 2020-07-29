@@ -139,10 +139,10 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background color: coral; /* Add your own background color */
+  background color: pink; /* Add your own background color */
   padding: 4%;
   margin: 3%;
-  color: coral; /* Add the color of your font */
+  color: magenta; /* Add the color of your font */
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
@@ -161,7 +161,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: coral;
+  background-color: violet;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
