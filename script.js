@@ -9,5 +9,18 @@
 
 
 /* TODO: Declare the function checkOffList and add actions inside the { } */
+let selected = false;
 
+const testImage = document.getElementById("test-image");
+testImage.onclick = handleClick;
+
+function handleClick() {  
+  selected = !selected
+  
+  if (selected) {
+    testImage.classList.add("selected");
+  } else {
+    testImage.classList.remove("selected");
+  }
+}
 
