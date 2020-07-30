@@ -64,7 +64,7 @@
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: black;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
@@ -212,7 +212,7 @@ like a checkmark!
   }
 
   #list-container {
-    background-color: white;
+    background-color: black;
     border-radius: 15px;
     padding: 20px 20px 40px 40px;
   }
@@ -223,11 +223,4 @@ like a checkmark!
   }
 }
 
-.flex-container {
-  display: flex; /* Set the flexbox display */
-  flex-direction: row; /* Configure the flex items to row */
-  flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
-  align-items: center; /* Align the flex items to the center */
-}
-<div> class= flex-container-action </div>
+
